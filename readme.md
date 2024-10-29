@@ -4,6 +4,7 @@
 
 
 ## How to install & setup
+- conda create -n 'new_environment'
 - pip install requirements.txt.
 - python setup directory.py.
 - put images in './image_data'.
