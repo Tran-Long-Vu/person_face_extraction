@@ -1,21 +1,23 @@
 # Person detection inference module
-- Input: batch of images in rgb format
+- Input: folder of images in rgb format
 - Output:batch of List(Bounding boxes) of inferred persons inside image batch. 
 
-## Requirements
 
-
-## How to install
-
-
+## How to install & setup
+- pip install requirements.txt.
+- python setup directory.py.
+- put images in './image_data'.
+- put onnx model in './models'.
+- './outputs' images is for reference.
 
 ## Run
-- Input: images in (image) folder
-- run python person_extractor.py. 
+- python person_extractor.py. 
+- python face_extractor.py
+- check output in person_results.log and face_results.log
 
 ## Results
-- logged in JSON/txt/csv/df format
-- saved in RAM. 
+- logged in .log format
+- saved in 'results' dict
 
 ## Comments
 

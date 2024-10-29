@@ -1,0 +1,6 @@
+onnxruntime
+tqdm
+insightface
+numpy
+scrfd
+opencv-python
